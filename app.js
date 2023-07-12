@@ -3,9 +3,9 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 const context = canvas.getContext("2d");
-const frameCount = 102;
+const frameCount = 767;
 
-const currentFrame = (index) => `./best-ball/Video1_000_0${(index + 1).toString()}.jpg`;
+const currentFrame = (index) => `./best-ball/${(index + 1).toString()}.jpg`;
 
 const images = [];
 let ball = { frame: 0 };
